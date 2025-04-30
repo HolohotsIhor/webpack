@@ -1,6 +1,6 @@
-import '@/src/scss/index.scss';
+import '@css/index.scss';
 import { initBootstrapLogic } from '@js/bootstrap.js';
-console.log("Hello, Webpack!");
+import { initMomentsJsLogic } from '@js/moment.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     initBootstrapLogic();

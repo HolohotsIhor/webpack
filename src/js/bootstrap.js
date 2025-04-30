@@ -10,6 +10,7 @@ export const initBootstrapLogic = () => {
     const alertBox = document.getElementById('myAlert');
 
     alertBtn.addEventListener('click', () => {
+        console.log('click');
         alertBox.classList.toggle('d-none');
     });
 }

@@ -1,6 +1,6 @@
 import moment from 'moment';
 
-const initMomentsJsLogic = () => {
+export const initMomentsJsLogic = () => {
     const regex = /^(\d{2})\/(\d{2})\/(\d{4})$/;
     const myDate = moment('1994-03-24');
     document.getElementById('myBirthDate').textContent = myDate.format('dddd, D MMMM YYYY');

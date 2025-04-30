@@ -1,6 +1,10 @@
-$red: red;
+/* Libs */
+@use "bootstrap/scss/bootstrap";
+
+/* Base */
+@use "./variables" as vars;
 
 body {
-  background-color: $red;
-  color: white;
+  background-color: vars.$color-bg;
+  color: vars.$color-text;
 }
