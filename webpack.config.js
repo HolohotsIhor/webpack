@@ -7,13 +7,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default {
-    mode: 'development', // or 'production'
+    mode: 'production', // or 'production'
     entry: './src/js/index.js',
     output: {
         filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true, // clean dist before build
-        publicPath: '/',
+        publicPath: './',
     },
     module: {
         rules: [
