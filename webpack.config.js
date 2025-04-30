@@ -13,7 +13,7 @@ export default {
         filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true, // clean dist before build
-        publicPath: process.env.NODE_ENV === 'production' ? '/webpack/' : '/',
+        publicPath: '/',
     },
     module: {
         rules: [
