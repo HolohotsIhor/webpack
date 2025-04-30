@@ -1,0 +1,7 @@
+# User-specific stuff:
+.idea/
+.github/
+
+# Dependency directories
+node_modules/
+dist/
